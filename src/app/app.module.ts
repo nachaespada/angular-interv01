@@ -1,11 +1,10 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { FruitsComponent } from "./../fruits/fruits.ts";
 
 import { AppComponent } from "./app.component";
 
 @NgModule({
-  declarations: [AppComponent, FruitsComponent],
+  declarations: [AppComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
