@@ -1,0 +1,15 @@
+<div class="list-container">
+  <div
+    [attr.class]="'item color-' + fruit.color"
+    *ngFor="let fruit of fruits; index as i;"
+  >
+    <span>{{i + 1}}</span>
+    <strong>{{fruit.name}}</strong>
+    <div>
+      <button (click)="up(i)" [disabled]="i == 0">Up</button>
+      <button (click)="down(i)" [disabled]="i == fruits.length - 1">
+        Down
+      </button>
+    </div>
+  </div>
+</div>

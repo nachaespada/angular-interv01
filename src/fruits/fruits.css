@@ -1,0 +1,20 @@
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.list-container .item {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+}
